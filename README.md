@@ -10,6 +10,9 @@
 - `tests/test_main.py` — автоматические тесты.
 
 ## Запуск
+```
+py -m pip install -r requirements.txt
+```
 
 ```bash
 python -m src.main
