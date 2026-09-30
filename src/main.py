@@ -1,3 +1,4 @@
+from project_b_utils import get_current_date, reverse_string
 from src.utils import create_task, complete_task
 
 
@@ -9,6 +10,8 @@ def main() -> None:
     complete_task(task)
 
     print(f"Выполнена после завершения: {task.completed}")
+    print(f"Текущая дата: {get_current_date()}")
+    print(f"Строка наоборот: {reverse_string('Git')}")
 
 
 if __name__ == "__main__":
